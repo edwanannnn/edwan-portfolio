@@ -74,7 +74,7 @@ export const EXPERIENCES: ExperienceItem[] = [
   {
     company: "PT Busanid Techno Asia",
     role: "DevOps Engineer",
-    period: "Jul 2026 – Present",
+    period: "Aug 2026 – Present",
     location: "Part-time · Remote",
     bullets: [
       "Manage and maintain cloud infrastructure and Linux server environments for high availability and steady performance.",
@@ -95,7 +95,7 @@ export const EXPERIENCES: ExperienceItem[] = [
   {
     company: "Outlier AI",
     role: "AI Model Trainer & Technical Evaluator (Contract)",
-    period: "May 2026 – Aug 2026",
+    period: "Apr 2026 – May 2026",
     location: "Remote",
     bullets: [
       "Evaluated and benchmarked frontier LLM outputs for code generation, architectural logic, and factual accuracy.",
