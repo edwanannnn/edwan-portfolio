@@ -62,7 +62,7 @@ export const EXPERIENCES: ExperienceItem[] = [
   {
     company: "Shoppias",
     role: "DevOps Engineer",
-    period: "Jul 2026 – Present",
+    period: "Jun 2026 – Present",
     location: "Remote",
     bullets: [
       "Design and maintain CI/CD deployment routines across production microservices, eliminating deployment downtime.",
