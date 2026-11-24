@@ -117,7 +117,7 @@ export const EXPERIENCES: ExperienceItem[] = [
 export const TECH_GROUPS: TechGroup[] = [
   {
     category: "Cloud & Infra",
-    items: ["AWS (EC2, S3, RDS, IAM)", "DigitalOcean", "Hetzner", "Ubuntu / Debian", "Terraform"],
+    items: ["AWS (EC2, S3, VPC, IAM)", "DigitalOcean", "Hetzner", "Ubuntu / Debian", "Terraform", "Ansible"],
   },
   {
     category: "Containers & CI/CD",
@@ -125,15 +125,22 @@ export const TECH_GROUPS: TechGroup[] = [
   },
   {
     category: "Observability & Web",
-    items: ["Grafana", "Prometheus", "Node Exporter", "CloudWatch", "Nginx", "Let's Encrypt SSL"],
+    items: ["Grafana", "Prometheus", "Node Exporter", "Nginx", "Let's Encrypt SSL", "PostgreSQL"],
   },
   {
     category: "Security & Languages",
-    items: ["SSH Hardening", "OWASP LLM Top 10", "Python", "Bash", "C / C++", "JavaScript"],
+    items: ["UFW & Fail2ban", "SSH Hardening", "OWASP LLM Top 10", "Python", "Bash", "C / C++"],
   },
 ];
 
 export const PROJECTS: ProjectItem[] = [
+  {
+    title: "AWS Production Infra (Terraform + Ansible)",
+    description:
+      "Provisions AWS VPC, EC2 (IMDSv2), encrypted S3, and least-privilege IAM via Terraform; automates SSH/UFW/Fail2ban hardening, Nginx Let's Encrypt SSL, and verified PostgreSQL backups via Ansible.",
+    tags: ["Terraform", "Ansible", "AWS", "Nginx", "PostgreSQL"],
+    githubUrl: "https://github.com/edwanannnn/terraform-ansible-prod-infra",
+  },
   {
     title: "Automated CI/CD Pipeline & DevSecOps",
     description:
@@ -154,13 +161,6 @@ export const PROJECTS: ProjectItem[] = [
       "Asynchronous Python daemon tracking CPU, RAM, disk, and NVIDIA RTX A6000 GPU metrics with instant Slack and Telegram webhook alerts for production nodes.",
     tags: ["Python", "Docker", "Webhooks", "Telemetry"],
     githubUrl: "https://github.com/edwanannnn/health-bot",
-  },
-  {
-    title: "Zero-Cost Private AI Reasoning Stack",
-    description:
-      "Self-hosted LLM inference pipeline combining Nous Hermes 3, an OpenAI-compatible router proxy, and keyless scraping via Docker Compose without recurring token fees.",
-    tags: ["Docker Compose", "LLM", "Self-Hosted", "Linux"],
-    githubUrl: "https://github.com/edwanannnn/private-ai-stack",
   },
 ];
 
