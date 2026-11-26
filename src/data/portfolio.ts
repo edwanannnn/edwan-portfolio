@@ -47,7 +47,7 @@ export const PROFILE = {
   education: {
     institution: "Universitas Bahaudin Mudhary",
     degree: "B.Sc. in Informatics Engineering",
-    meta: "GPA 4.00 / 4.00 · Expected 2026",
+    meta: "GPA 4.00 / 4.00 · Expected 2028",
   },
 } as const;
 
